@@ -1,0 +1,19 @@
+server:
+  port: 8080
+#选择要激活那个环境块
+spring:
+  profiles:
+    active: dev
+
+---
+server:
+  port: 8090
+# 模块名
+spring:
+  profiles: dev
+
+---
+server:
+  port: 8099
+spring:
+  profiles: test

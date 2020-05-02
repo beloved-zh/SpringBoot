@@ -1,0 +1,13 @@
+# 关闭默认图标
+spring.mvc.favivon.enabled: false
+
+spring:
+  mvc:
+    # 自定义的配置日期格式
+    date-format: yyyy-MM-dd
+  # 关闭模板引擎的缓存
+  thymeleaf:
+    cache: false
+  # 国际化配置文件位置
+  messages:
+    basename: i18n.login

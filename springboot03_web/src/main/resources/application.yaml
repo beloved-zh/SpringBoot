@@ -1,0 +1,7 @@
+# 关闭默认图标
+spring.mvc.favivon.enabled: false
+
+# 自定义的配置日期格式
+spring:
+  mvc:
+    date-format: yyyy-MM-dd
